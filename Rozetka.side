@@ -1,0 +1,159 @@
+{
+  "id": "5f531046-c18f-4a83-93d7-f6d8d64317c8",
+  "version": "2.0",
+  "name": "Rozetka",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "71a5c060-d47b-4777-98a0-d8c5ac0a0a91",
+    "name": "Rozetka",
+    "commands": [{
+      "id": "65eeb155-436e-400e-a5ba-8717378ac0e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2535f62-e063-41ae-9c6a-b1bff4bb8ddc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x770",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4c487e1-2070-4e72-86a0-f70668902731",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки и компьютеры",
+      "targets": [
+        ["linkText=Ноутбуки и компьютеры", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки и компьютеры')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0841a49e-df88-4f62-9f41-943a2ec113e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ng-lazyloaded",
+      "targets": [
+        ["css=.ng-lazyloaded", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content1.rozetka.com.ua/banner_category/image_mobile/original/267736456.jpg')]", "xpath:img"],
+        ["xpath=//li/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2753a5ff-f6be-420f-acd2-e7639888f1ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.simple-slider__item:nth-child(1) > .top-widget__slider-item .ng-lazyloaded",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(1) > .top-widget__slider-item .ng-lazyloaded", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content1.rozetka.com.ua/banner_category/image_mobile/original/267736456.jpg')]", "xpath:img"],
+        ["xpath=//li/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "437cdd02-3ae7-46e7-af54-8cf45ed7206c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gaming",
+      "targets": [
+        ["linkText=Gaming", "linkText"],
+        ["css=.ng-star-inserted:nth-child(3) > .portal-section .portal-grid__cell:nth-child(4) .tile-cats__heading", "css:finder"],
+        ["xpath=//a[contains(text(),'Gaming')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/game-zone/c80261/')])[3]", "xpath:href"],
+        ["xpath=//li[4]/rz-list-tile/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Gaming')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b06ec69a-8790-478f-afe1-a29bda0fe40f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.simple-slider__item:nth-child(1) > .top-widget__slider-item .ng-lazyloading",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(1) > .top-widget__slider-item .ng-lazyloading", "css:finder"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65ae4c17-dd7d-48b4-ad06-ac7a224f2783",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ng-lazyloaded:nth-child(3)",
+      "targets": [
+        ["css=.ng-lazyloaded:nth-child(3)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content.rozetka.com.ua/banner_category/image_t/original/266429925.jpg')]", "xpath:img"],
+        ["xpath=//li/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee99d03c-0758-46c7-bb6c-c7da539d846d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-widget__categories-item:nth-child(1) .popular-category__title",
+      "targets": [
+        ["css=.top-widget__categories-item:nth-child(1) .popular-category__title", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Игровые приставки PlayStation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54e783da-8670-4279-9206-37f820f02da2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Стационарная игровая приставка Sony PlayStation 5 Digital Edition 825 GB')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2b1b8e6-9225-41ac-a647-8e9f4b247b58",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860d7eb7-5464-4fd3-b889-0ae82ecbbab4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=оставить отзыв",
+      "targets": [
+        ["linkText=оставить отзыв", "linkText"],
+        ["css=.product__rating-reviews", "css:finder"],
+        ["xpath=//a[contains(text(),'оставить отзыв')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/sony-playstation-5-digital-edition-825-gb/p341710939/comments/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'оставить отзыв')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68c558c6-4eb9-473d-b181-59ebc2f3c251",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(3)",
+      "targets": [
+        ["css=img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1480ae05-4740-4cfd-a9ae-50006896667d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["71a5c060-d47b-4777-98a0-d8c5ac0a0a91"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
